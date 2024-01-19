@@ -46,7 +46,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                 };
 
         try {
-          const response = await fetch('https://smart-farme.onrender.com/api/v1/signup', {
+          const response = await fetch('https://file-upload-backend-wj7j.onrender.com/api/v1/signup', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

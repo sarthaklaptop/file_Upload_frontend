@@ -29,7 +29,7 @@ function ImageUpload1() {
     formDataToSend.append('file', formData.file);
 
     try {
-      const response = await fetch('http://localhost:4000/api/v1/imageUPload', {
+      const response = await fetch('https://file-upload-backend-wj7j.onrender.com/api/v1/imageUPload', {
         method: 'POST',
         body: formDataToSend,
       });
